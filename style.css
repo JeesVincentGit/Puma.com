@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+}
+.freeSpace{
+    height: 79px;
+    width: 100%;
+}
+.mainBar{
+    width: 100%;
+    height: 79px;
+    background-color: black;
+    position: relative;
+    position: fixed;
+    z-index: 1000;
+}
+
+.mainBarLogo{
+    margin-top: 22px;
+    margin-left: 22px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.mainBarList{
+    height: 100%;
+    margin-top: -61px;
+    margin-left: 46px;
+    font-weight:bolder;
+    width: 68%;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    object-fit: cover;
+    color: aliceblue;
+}
+
+.mainBarLi{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    transition: color 0.3s;
+}
+
+.mainBarSub{
+    width: 30%;
+    height: 79px;
+}
+
+.Sub1{
+    margin-left: 78%;
+    margin-top: -72px;
+    border-style: ridge;
+    border-width: 0.09mm;
+    width: 9%;
+    height: 47%;
+    background-color:transparent;
+    position: absolute;
+}
+.searchButton{
+    margin-top: 12px;
+    margin-left: 9px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.searchLogo{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+.Likebutton{
+    margin-top: -64px;
+    margin-left: 1352px;
+    height: 23px;
+    width: 23px;
+    position: absolute;
+}
+
+.cartMargin{
+    margin-left: 1402px;
+}
+
+.profileMargine{
+    margin-left: 1452px;
+    height: 27px;
+    width: 27px;
+}
+.section1img img{
+    width: 100%;
+    position: relative;
+}
+
+.sectionParagraph{
+    margin-top: -345px;
+    margin-left: 1021px;
+    background-color: transparent;
+    width: 29%;
+    height: 155px;
+    position: absolute;
+}
+.line1Section1{
+    margin-left: 124px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Arial Black', Impact, sans-serif;
+    color: #fff;
+}
+.line2Section1{
+    font-size: 24px;
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+    color: #fff;
+}
+.boxSection1{
+    height: 40px;
+    width: 110px;
+    display: inline-block;
+    color: black;
+    background-color: #fff;
+    margin: 10px;
+}
+.textSection1{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Arial Black', Impact, sans-serif;
+}
+.buttonPosition{
+    margin-left: 40px;
+}
+
+.buttonSection2{
+    margin-left: 234px;
+    width: 162px;
+}
+
+.sectionParagraph3{
+    margin-top: -345px;
+    margin-left: 85px;
+    background-color: transparent;
+    width: 29%;
+    height: 155px;
+    position: absolute;
+}
+
+.line1Section2{
+    
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Arial Black', Impact, sans-serif;
+    color: #fff;
+}
+
+.section4{
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+.section4head{
+    margin-left: 31px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.section4half{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 92px;
+    height: 587px;
+    position: absolute;
+}
+
+.box2{
+    display: inline-flex;
+    
+    height: 587px;
+}
+.box3{
+    margin-left: 44px;
+}
+.box2Text{
+    margin-top: 534px;
+    margin-left: 10px;
+    font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+
+.section6{
+    
+    width: 100%;
+    height: 535px;
+    object-fit: cover;
+    position: relative;
+}
+.section6 img{
+    width: 100%;
+}
+.section6Paragraph{
+    margin-top: -345px;
+    margin-left: 542px;
+    background-color: transparent;
+    width: 29%;
+    height: 155px;
+    position: absolute;
+    justify-items: center;
+}
+.section8{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.section8box{
+    height: 335px;
+    margin-top: 100px;
+    margin-left: 2%;
+    width: 96%;
+    position: absolute;
+    
+}
+.section8box1{
+    display: inline-flex;
+    height: 335px;
+    width: 258px;
+    
+}
+
+.section8box2{
+    margin-left: 36px;
+}
+
+.section8BOX3{
+    margin-top: 300px;
+    margin-left: 10px;
+    font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
+    font-size: 21PX;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+
+.section10{
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+.section10box{
+    height: 625px;
+    margin-top: 80px;
+    width: 96%;
+    margin-left: 2%;
+    position: absolute;
+}
+.section10box1{
+    display: inline-flex;
+    width: 474px;
+    height: 625px;
+}
+.section10box2{
+    margin-left: 10px;
+}
+.section10box3{
+    margin-top: 570px;
+    margin-left: 20px;
+    font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
+    font-size: 28PX;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+.info{
+    width: 100%;
+    height: 465px;
+    background-color: black;
+    position: relative;
+}
+.line{
+    width: 96%;
+    margin-top: 330px;
+    margin-left: 2%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+.leftinfo{
+    margin-top: 31px;
+    margin-left: 140px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font: normal;
+    line-height: 1.8;
+}
+.rightinfo{
+    margin-top: 35px;
+    margin-left: 1100px;
+    height: 250px;
+    width: 350px;
+    position: absolute;
+}
+.socialLinks{
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+}
+.linkbox{
+    width: 66px;
+    height: 27px;
+    display: inline-flex;
+}
+.logoContainer{
+    margin-top: 23px;
+}
+.appLogo{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.appLogo img{
+    margin-top: 2px;
+    margin-left: 8px;
+    height: 70%;
+    width: 70%;
+    position: relative;
+}
+.appDe{
+    margin-top: 31px;
+    margin-left: -30px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+.paymentLinks{
+    height: 25px;
+    width: 225px;
+    margin-top: 389px;
+    margin-left: 29px;
+    display: inline-flex;
+}
+.indianLogo{
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    border: 1px solid #fff;
+    margin-left: 702px;
+    margin-top: -40px;
+}
+.indianLogo img{
+    margin-top: 8px;
+    margin-left: 10px;
+    height: 64%;
+    border-radius: 20px;
+}
+.indiaText{
+    margin-top: 14px;
+    margin-left: 10px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 19px;
+}
+.info2{
+    height: 65px;
+    width: 300px;
+    margin-top: -86px;
+    margin-left: 1184px;
+    color: #fff;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+.info2 p{
+    font-size: 13px;
+    margin-top: 0px;
+}
+.info2 span{
+    font-size: 13px;
+    margin-left: 128px;
+    border-bottom: 1px solid #fff;
+}
